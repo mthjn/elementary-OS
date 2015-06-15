@@ -24,6 +24,14 @@ sudo apt-get install screenlets
 ## SysmonitorScreenlet ClearCalendarScreenlet WidescapeWeatherScreenlet eventCalScreenlet
 ## CircleClockScreenlet FeedReaderPlusScreenlet NowPlayingScreenlet
 
+# linux performance monitoring tools like perf
+sudo apt-get install linux-tools-common
+sudo apt-get install linux-lts-utopic-tools-common
+sudo apt-get install linux-lts-utopic-tools-3.16.0-38
+sudo apt-get install linux-tools-3.16.0-38-generic
+sudo apt-get install linux-cloud-tools-3.16.0-38-generic
+## apt-get install linux-tools-common linux-tools-generic linux-tools-`uname -r`
+
 # get web browsers
 sudo apt-get purge midori-granite
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
