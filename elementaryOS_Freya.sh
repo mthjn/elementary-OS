@@ -1,3 +1,4 @@
+#!/bin/sh
 # elementary OS Freya
 
 # elementary tweaks for Freya
