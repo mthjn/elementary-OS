@@ -42,3 +42,4 @@ sudo apt-get install google-chrome-stable
 
 # @link http://www.neowin.net/forum/topic/1180735-guide-to-make-elementary-os-look-like-xenzen-configuration/
 # @link http://lifehacker.com/the-elementary-desktop-1304577213
+# @link http://aruizca.com/my-steps-to-setup-elementaryos-freya/
