@@ -6,8 +6,10 @@
 elementary tweaks for freya  
 cairo dock instead of plank  
 desktop screenlets  
-**TO DO:** More performance tools and basic stuff like browsers  
+linux performance tools  
 [>>>](https://github.com/mthjn/elementary-OS/blob/master/elementaryOS_Freya.sh)  
+  
+**TO DO:** More performance tools and basic stuff like browsers  
    
 ##### set up sass on ubuntu / elementary  
 ruby  
