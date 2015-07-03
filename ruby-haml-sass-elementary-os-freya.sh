@@ -1,4 +1,4 @@
 #!/bin/sh
+# run as root
 apt-get install rbenv -y
-
-sudo su -c "gem install sass"
+gem install sass
