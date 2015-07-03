@@ -5,9 +5,12 @@
 # install ruby
 apt-get install rbenv -y
 
-# following or $ sudo su -c "gem install haml"
+# following or $ sudo su -c "gem install $gem"
 # get sass gem
 gem install sass
+# get mixin library: vendor prefixes
+# also needs to be inst within work dir @see bourbon.io
+gem install bourbon
 # get haml gem
 gem install haml
 
@@ -36,6 +39,9 @@ vim +PluginInstall +qall
 
 ## set currently watched directory
 mkdir ~/sass_project1
+cd ~/sass_project1
+# feach css @import "bourbon/bourbon"
+bourbon install
 sass --watch ~/sass_project1
 
 # open vim in another terminal window and start working!
