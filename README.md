@@ -16,7 +16,7 @@ ruby
 sass  
 vim vundle manager  
 .vimrc config for sass  
-[>>>](https://github.com/mthjn/elementary-OS/blob/master/ruby-haml-sass-elementary-os-freya.sh)  
+[>>>](https://github.com/mthjn/elementary-OS/blob/master/elementaryOS_Freya_RubyHamlSass.sh)  
   
 [SCSS for vim](https://github.com/cakebaker/scss-syntax.vim)  
 [Vundle](https://github.com/gmarik/Vundle.vim)  
