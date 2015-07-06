@@ -2,18 +2,22 @@
 
 # run as root
 
-# install ruby
+# -- ruby --
 apt-get install rbenv -y
 
-# following or $ sudo su -c "gem install $gem"
-# get sass gem
+
+# -- gems --
+# -- verbose gem install: $ sudo su -c "gem install $gem"
+# get sass for css preprocessing
 gem install sass
 # get mixin library: vendor prefixes
 # also needs to be inst within work dir @see bourbon.io
 gem install bourbon
-# get haml gem
+# get haml gem for html preprocessing
 gem install haml
-
+# get rails with dependencies manager
+gem install bundler
+gem install rails
 
 
 # get package manager for vim
@@ -47,7 +51,8 @@ sass --watch ~/sass_project1
 # open vim in another terminal window and start working!
 
 # no auto compile for haml tho
-# do file by file   $ haml file.haml file.html
+# compile file by file - $ haml file.haml file.html
+# or @see https://github.com/mthjn/bash-haml-converter
 
 ## -- Read More -- ##
 # Syntax Highlight gogleable for sublime, atom, vim
