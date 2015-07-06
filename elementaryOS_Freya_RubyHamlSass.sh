@@ -4,11 +4,11 @@
 
 # -- ruby --
 apt-get install rbenv -y
-# gets 2.8.3 - not enough for rails
+# gets ruby 1.8 - good for sass/haml, not enough for rails
 # latest stable: \curl -L https://get.rvm.io | bash -s stable --ruby
 
 # -- gems --
-# -- verbose gem install: $ sudo su -c "gem install $gem"
+
 # get sass for css preprocessing
 gem install sass -V
 # get mixin library: vendor prefixes
