@@ -4,20 +4,22 @@
 
 # -- ruby --
 apt-get install rbenv -y
-
+# gets 2.8.3 - not enough for rails
+# latest stable: \curl -L https://get.rvm.io | bash -s stable --ruby
 
 # -- gems --
 # -- verbose gem install: $ sudo su -c "gem install $gem"
 # get sass for css preprocessing
-gem install sass
+gem install sass -V
 # get mixin library: vendor prefixes
 # also needs to be inst within work dir @see bourbon.io
-gem install bourbon
+gem install bourbon -V
 # get haml gem for html preprocessing
-gem install haml
+gem install haml -V
+
 # get rails with dependencies manager
-gem install bundler
-gem install rails
+# gem install bundler -V
+# gem install rails -V
 
 
 # get package manager for vim
