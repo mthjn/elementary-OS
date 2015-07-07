@@ -10,6 +10,7 @@ alias l='ls -CF'
 
 alias ..='cd ../'
 alias fcl='fc -ln -1'
+
 alias gs='git status'
 
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
