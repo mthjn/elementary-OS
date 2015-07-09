@@ -32,7 +32,7 @@ apt-get install screenlets -y
 ## CircleClockScreenlet FeedReaderPlusScreenlet NowPlayingScreenlet
 
 # git
-apt-get install git
+apt-get install git -y
 
 # linux performance monitoring tools like perf
 apt-get install linux-tools-common -y
