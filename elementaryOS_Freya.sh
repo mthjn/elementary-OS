@@ -31,6 +31,9 @@ apt-get install screenlets -y
 ## SysmonitorScreenlet ClearCalendarScreenlet WidescapeWeatherScreenlet eventCalScreenlet
 ## CircleClockScreenlet FeedReaderPlusScreenlet NowPlayingScreenlet
 
+# git
+apt-get install git
+
 # linux performance monitoring tools like perf
 apt-get install linux-tools-common -y
 apt-get install linux-lts-utopic-tools-common -y
