@@ -9,9 +9,10 @@
 * open files, check if VBoxGuestAdditions mounted or mount it
 * terminal  
 
-      cd /media/$USER
-      cd VBOX*
-      sudo sh ./VBoxLinuxAdditions.run
+
+          cd /media/$USER
+          cd VBOX*
+          sudo sh ./VBoxLinuxAdditions.run
 
 
 
