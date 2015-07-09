@@ -8,6 +8,7 @@ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB8
 sudo apt-get install curl -y
 \curl -L https://get.rvm.io | bash -s stable --ruby
 source ~/.rvm/scripts/rvm
+apt-get bundle install -y
 #check
 ruby -v
 # global gemset
