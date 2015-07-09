@@ -11,6 +11,9 @@ apt-get install elementary-tweaks -y
 apt-get install cairo-dock -y
 apt-get install dconf-tools -y
 
+# get guake terminal
+apt-get install guake -y
+
 # screenlets for desktop
 add-apt-repository ppa:screenlets/ppa -y
 apt-get update
@@ -39,6 +42,7 @@ apt-get install google-chrome-stable -y
 ## $ sudo gnome-session-properties
 ## $ dconf-editor
 ## navigate to org - pantheon - cerbere
+## add guake
 ## remove plank from the array and type in 'cairo-dock'
 ## $ pkill plank
 
