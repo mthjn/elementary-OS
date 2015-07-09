@@ -14,6 +14,15 @@ apt-get install dconf-tools -y
 # get guake terminal
 apt-get install guake -y
 
+# get proper text editors
+apt-get install vim -y
+apt-get install gedit -y
+apt-get remove scratch-text-editor -y
+
+# dropbox for wingpanel
+git clone https://github.com/zant95/elementary-dropbox /tmp/elementary-dropbox
+bash /tmp/elementary-dropbox/install.sh
+
 # screenlets for desktop
 add-apt-repository ppa:screenlets/ppa -y
 apt-get update
@@ -30,14 +39,14 @@ apt-get install linux-tools-3.16.0-38-generic -y
 apt-get install linux-cloud-tools-3.16.0-38-generic -y
 ## apt-get install linux-tools-common linux-tools-generic linux-tools-`uname -r`
 
-# get web browsers
+# get better web browsers
 sudo apt-get purge midori-granite -y
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 apt-get update
 apt-get install google-chrome-stable -y
 
-#### manual
+#### -------  manual
 # startup applications:
 ## $ sudo gnome-session-properties
 ## $ dconf-editor
