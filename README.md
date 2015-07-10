@@ -1,5 +1,12 @@
 ### After installs for Ubuntu / elementary OS  
-Shell scripts, run as **root**  
+Shell scripts, run w **root**  privilleges
+
+
+      git clone https://github.com/mthjn/elementary-OS.git
+      chmod 777 *.sh
+      sudo elementaryOS_Freya.sh
+      # ...
+  
   
 elementary essentials 
 * elementary tweaks for freya  
