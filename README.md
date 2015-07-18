@@ -1,5 +1,7 @@
 ### After installs for Ubuntu / elementary OS  
-Shell scripts, run w **root**  privilleges
+**Just handy things if you work with multiple virtual machines or computers and happen to install ubuntu quite often.**  
+
+for shell scripts: run w **root**  privilleges
 
 
       git clone https://github.com/mthjn/elementary-OS.git
