@@ -8,6 +8,9 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+#list of all current connections with ips
+alias llll='lsof -n -P -i +c 15'
+
 alias ..='cd ../'
 alias fcl='fc -ln -1'
 
