@@ -47,4 +47,4 @@ links out
 * [scss for vim](https://github.com/cakebaker/scss-syntax.vim)  
 * [vundle](https://github.com/gmarik/Vundle.vim)  
 
-
+![rusalka](https://github.com/mthjn/elementary-OS/blob/master/uboha%20rusalko%20bleda.png)
