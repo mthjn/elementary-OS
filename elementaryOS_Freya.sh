@@ -34,6 +34,10 @@ apt-get install screenlets -y
 # git
 apt-get install git -y
 
+# get terminal text web browser
+# @see screenshot
+apt-get install w3m -y
+
 # linux performance monitoring tools like perf
 apt-get install linux-tools-common -y
 apt-get install linux-lts-utopic-tools-common -y
