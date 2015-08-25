@@ -1,5 +1,8 @@
 ### After installs elementary OS  
 #### All you need is terminal  
+  
+![rusalka](https://github.com/mthjn/elementary-OS/blob/master/uboha%20rusalko%20bleda.png)  
+  
 **Just handy things if you work with multiple virtual machines or computers and happen to install ubuntu quite often.**  
 
 for shell scripts: run w **root**  privilleges
@@ -44,4 +47,3 @@ links out
 * [scss for vim](https://github.com/cakebaker/scss-syntax.vim)  
 * [vundle](https://github.com/gmarik/Vundle.vim)  
 
-![rusalka](https://github.com/mthjn/elementary-OS/blob/master/uboha%20rusalko%20bleda.png)
