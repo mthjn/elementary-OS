@@ -10,7 +10,7 @@ for shell scripts: run w **root**  privilleges
       # ...
   
   
-elementary essentials 
+after install essentials 
 * elementary tweaks for freya  
 * cairo dock instead of plank  
 * guake slide in terminal
@@ -18,26 +18,22 @@ elementary essentials
 * screenlets  
 * performance tools  
 * browsers  
-[>>>](https://github.com/mthjn/elementary-OS/blob/master/elementaryOS_Freya.sh)  
    
-sass on ubuntu / elementary  
+ruby / sass 
 * ruby  
 * sass  
 * vim vundle  
 * .vimrc config for sass  
-[>>>](https://github.com/mthjn/elementary-OS/blob/master/elementaryOS_Freya_RubyHamlSass.sh)  
   
 ruby w rvm  
 * new ruby  
 * sinatra  
 * capistrano  
-[>>>](https://github.com/mthjn/elementary-OS/blob/master/Ubuntu_elementary_RVMRubyInstall.sh)  
   
-web design/graphics  
+web design  
 * gimp on elementary   
 * inkscape on elementary  
 * krita on elementary  
-[>>>](https://github.com/mthjn/elementary-OS/blob/master/elementaryOS_Freya_DesignGraphics.sh)   
   
 more links   
 * [virtualbox on win host](https://github.com/mthjn/elementary-OS/blob/master/VirtualBox.md)  
