@@ -7,8 +7,12 @@ add-apt-repository ppa:mpstark/elementary-tweaks-daily -y
 apt-get update
 apt-get install elementary-tweaks -y
 
-# get cairo dock instead of plank
-apt-get install cairo-dock -y
+# get glx dock / cairo dock instead of plank
+# this fixes the bug in old cairo dock which crashes on right click
+sudo add-apt-repository ppa:cairo-dock-team/ppa -y
+sudo apt-get update 
+sudo apt-get install cairo-dock cairo-dock-plug-ins -y
+
 apt-get install dconf-tools -y
 
 # get guake terminal
