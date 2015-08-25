@@ -1,4 +1,5 @@
-### After installs for Ubuntu / elementary OS  
+### After installs elementary OS  
+#### All you need is terminal  
 **Just handy things if you work with multiple virtual machines or computers and happen to install ubuntu quite often.**  
 
 for shell scripts: run w **root**  privilleges
