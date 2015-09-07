@@ -13,6 +13,11 @@ apt-get install vim -y
 apt-get install gedit -y
 apt-get remove scratch-text-editor -y
 
+# dropbox
+# wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86_64"
+# tar -xvzf dropbox.tar.gz
+# ~/.dropbox-dist/dropboxd
+
 # dropbox for wingpanel
 git clone https://github.com/zant95/elementary-dropbox /tmp/elementary-dropbox
 bash /tmp/elementary-dropbox/install.sh
