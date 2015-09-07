@@ -2,18 +2,8 @@
 # elementary OS Freya
 # run as root
 
-# elementary tweaks for Freya
-add-apt-repository ppa:mpstark/elementary-tweaks-daily -y
-apt-get update
-apt-get install elementary-tweaks -y
-
-# get glx dock / cairo dock instead of plank
-# this fixes the bug in old cairo dock which crashes on right click
-sudo add-apt-repository ppa:cairo-dock-team/ppa -y
-sudo apt-get update 
-sudo apt-get install cairo-dock cairo-dock-plug-ins -y
-
-apt-get install dconf-tools -y
+# git
+apt-get install git -y
 
 # get guake terminal
 apt-get install guake -y
@@ -26,21 +16,6 @@ apt-get remove scratch-text-editor -y
 # dropbox for wingpanel
 git clone https://github.com/zant95/elementary-dropbox /tmp/elementary-dropbox
 bash /tmp/elementary-dropbox/install.sh
-
-# screenlets for desktop
-add-apt-repository ppa:screenlets/ppa -y
-apt-get update
-apt-get install screenlets -y
-
-## SysmonitorScreenlet ClearCalendarScreenlet WidescapeWeatherScreenlet eventCalScreenlet
-## CircleClockScreenlet FeedReaderPlusScreenlet NowPlayingScreenlet
-
-# git
-apt-get install git -y
-
-# get terminal text web browser
-# @see screenshot
-apt-get install w3m -y
 
 # linux performance monitoring tools like perf
 apt-get install linux-tools-common -y
@@ -56,6 +31,33 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 apt-get update
 apt-get install google-chrome-stable -y
+# get terminal text web browser
+# @see screenshot
+apt-get install w3m -y
+
+
+# elementary tweaks for Freya
+add-apt-repository ppa:mpstark/elementary-tweaks-daily -y
+apt-get update
+apt-get install elementary-tweaks -y
+
+# get glx dock / cairo dock instead of plank
+# this fixes the bug in old cairo dock which crashes on right click
+sudo add-apt-repository ppa:cairo-dock-team/ppa -y
+sudo apt-get update 
+sudo apt-get install cairo-dock cairo-dock-plug-ins -y
+
+apt-get install dconf-tools -y
+
+# screenlets for desktop
+add-apt-repository ppa:screenlets/ppa -y
+apt-get update
+apt-get install screenlets -y
+
+## SysmonitorScreenlet ClearCalendarScreenlet WidescapeWeatherScreenlet eventCalScreenlet
+## CircleClockScreenlet FeedReaderPlusScreenlet NowPlayingScreenlet
+
+
 
 #### -------  manual
 # startup applications:
