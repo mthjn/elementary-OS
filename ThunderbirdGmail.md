@@ -1,3 +1,6 @@
+###Setup Thunderbird with a gmail account 
+after allowing IMAP and [less secure apps](https://www.google.com/settings/security/lesssecureapps)  
+  
 ###POP
 Type: POP  
 Server Name: pop.gmail.com  
