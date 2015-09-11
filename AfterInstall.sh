@@ -16,7 +16,7 @@ apt-get remove scratch-text-editor -y
 #get mysql
 apt-get install php5-mysql -y
 apt-get install mysql-server-5.6 -y
-
+apt-get update && apt-get upgrade -y
 #get adminer
 mkdir /usr/share/adminer
 wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/latest.php
