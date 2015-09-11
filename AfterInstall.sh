@@ -14,7 +14,8 @@ apt-get install gedit -y
 apt-get remove scratch-text-editor -y
 
 #get mysql
-sudo apt-get install php5-mysql -y
+apt-get install php5-mysql -y
+apt-get install mysql-server-5.6 -y
 
 #get adminer
 mkdir /usr/share/adminer
