@@ -13,6 +13,14 @@ apt-get install vim -y
 apt-get install gedit -y
 apt-get remove scratch-text-editor -y
 
+#get mysql
+sudo apt-get install php5-mysql -y
+
+#get adminer
+mkdir /usr/share/adminer
+wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/latest.php
+ln -s /usr/share/adminer/latest.php /usr/share/adminer/adminer.php
+
 # dropbox
 # wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86_64"
 # tar -xvzf dropbox.tar.gz
