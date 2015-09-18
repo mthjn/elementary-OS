@@ -1,26 +1,29 @@
 #!/bin/sh
 # elementary OS Freya
 # run as root
-
+cd /home/$USER
 # git
-apt-get install git -y
+sudo apt-get install git -y
 
 # get guake terminal
-apt-get install guake -y
+sudo apt-get install guake -y
 
 # get proper text editors
-apt-get install vim -y
-apt-get install gedit -y
-apt-get remove scratch-text-editor -y
+sudo apt-get install vim -y
+sudo apt-get install gedit -y
+sudo apt-get remove scratch-text-editor -y
+
+# get openvpn network manager config
+sudo apt-get -y install network-manager-openvpn
 
 #get mysql
-apt-get install php5-mysql -y
-apt-get install mysql-server-5.6 -y
-apt-get update && apt-get upgrade -y
+sudo apt-get install php5-mysql -y
+sudo apt-get install mysql-server-5.6 -y
+sudo apt-get update && apt-get upgrade -y
 #get adminer
-mkdir /usr/share/adminer
-wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/latest.php
-ln -s /usr/share/adminer/latest.php /usr/share/adminer/adminer.php
+sudo mkdir /usr/share/adminer
+sudo wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/latest.php
+sudo ln -s /usr/share/adminer/latest.php /usr/share/adminer/adminer.php
 
 # dropbox
 # wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86_64"
@@ -32,28 +35,28 @@ git clone https://github.com/zant95/elementary-dropbox /tmp/elementary-dropbox
 bash /tmp/elementary-dropbox/install.sh
 
 # linux performance monitoring tools like perf
-apt-get install linux-tools-common -y
-apt-get install linux-lts-utopic-tools-common -y
-apt-get install linux-lts-utopic-tools-3.16.0-38 -y
-apt-get install linux-tools-3.16.0-38-generic -y
-apt-get install linux-cloud-tools-3.16.0-38-generic -y
+sudo apt-get install linux-tools-common -y
+sudo apt-get install linux-lts-utopic-tools-common -y
+sudo apt-get install linux-lts-utopic-tools-3.16.0-38 -y
+sudo apt-get install linux-tools-3.16.0-38-generic -y
+sudo apt-get install linux-cloud-tools-3.16.0-38-generic -y
 ## apt-get install linux-tools-common linux-tools-generic linux-tools-`uname -r`
 
 # get better web browsers
 sudo apt-get purge midori-granite -y
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
-apt-get update
-apt-get install google-chrome-stable -y
+sudo apt-get update
+sudo apt-get install google-chrome-stable -y
 # get terminal text web browser
 # @see screenshot
-apt-get install w3m -y
+sudo apt-get install w3m -y
 
 
 # elementary tweaks for Freya
-add-apt-repository ppa:mpstark/elementary-tweaks-daily -y
-apt-get update
-apt-get install elementary-tweaks -y
+sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily -y
+sudo apt-get update
+sudo apt-get install elementary-tweaks -y
 
 # get glx dock / cairo dock instead of plank
 # this fixes the bug in old cairo dock which crashes on right click
@@ -61,12 +64,12 @@ sudo add-apt-repository ppa:cairo-dock-team/ppa -y
 sudo apt-get update 
 sudo apt-get install cairo-dock cairo-dock-plug-ins -y
 
-apt-get install dconf-tools -y
+sudo apt-get install dconf-tools -y
 
 # screenlets for desktop
-add-apt-repository ppa:screenlets/ppa -y
-apt-get update
-apt-get install screenlets -y
+sudo add-apt-repository ppa:screenlets/ppa -y
+sudo apt-get update
+sudo apt-get install screenlets -y
 
 ## SysmonitorScreenlet ClearCalendarScreenlet WidescapeWeatherScreenlet eventCalScreenlet
 ## CircleClockScreenlet FeedReaderPlusScreenlet NowPlayingScreenlet
